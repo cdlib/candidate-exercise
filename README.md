@@ -10,6 +10,6 @@ Your first task is to clean up and restructure the code, so that it will be read
 
 If there is refactoring that you would like to postpone until later, document using TODO comments in the code.
 
-Once you have refactored, you can improve the code so that the values passed in the HTTP query are validated, exceptions are handled correctly, and alter the method of filtering based on the filter criteria so that it is scalable.
+Once you have refactored, you can improve the code so that the values passed in the HTTP query are validated, exceptions are handled correctly, and alter the method of filtering based on the filter criteria so that it is scalable. Write unit tests for any business logic.
 
 There is a lot to do, and we don't expect anyone to do everything, but just see how far you can get in the allotted time.
