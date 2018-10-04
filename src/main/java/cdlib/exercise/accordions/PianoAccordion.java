@@ -14,6 +14,7 @@ public class PianoAccordion {
   // this is a value equal to 12, 24, 48, 60, 80, 96, or 120
   Integer bassKeys;
 
+  // a value equal to 2, 3, 4, or 5
   Integer trebleReeds;
 
   // equal to "musette", "swing", "alpine", "concert", or "jazz"
