@@ -6,7 +6,7 @@ An application that consumes this service can get a list of all the accordions, 
 However, a brief examination of the code reveals that it is a crude prototype and needs considerable refactoring before 
 you can start the work of making any functional changes. It also needs improvements to make it testable, readable, and well documented.
 
-Your task is to clean up and restructure the code, so that it will be readable, testable, and scalable, following normal conventions, as you or your teammates starts to add new functionality.
+Your first task is to clean up and restructure the code, so that it will be readable, testable, and scalable, following predictable conventions.
 
 Once you have refactored, you can improve the code so that the values passed in the HTTP query are validated, and alter the method of filtering based on the user criteria so that it is scalable to a longer list of criteria (remembering that the list of filter criteria will grow over time).
 
