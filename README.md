@@ -8,10 +8,6 @@ you can start the work of making any functional changes. It also needs improveme
 
 Your first task is to clean up and restructure the code, so that it will be readable, testable, and scalable, following predictable conventions.
 
-Once you have refactored, you can improve the code so that the values passed in the HTTP query are validated, and alter the method of filtering based on the user criteria so that it is scalable to a longer list of criteria (remembering that the list of filter criteria will grow over time).
-
 If there is refactoring that you would like to postpone until later, document using TODO comments in the code.
 
-
-
-
+Once you have refactored, you can improve the code so that the values passed in the HTTP query are validated, and alter the method of filtering based on the filter criteria so that it is scalable to a longer list of variables (remembering that the list of filter criteria will grow over time).
