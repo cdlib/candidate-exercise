@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Accordions class.
- * 
+ *
  * This class has stuff about accordions.
  */
 @RestController
@@ -21,13 +21,12 @@ public class Accordions {
 
   /**
    * RestController for the accordions list.
-   * 
+   *
    * @param tng the accordion type
-   * @param keys the number of keys
    * @return the resulting list of accordions
    */
   @RequestMapping("/accordions")
-  public List<PianoAccordion> thoseDarnAccordions(@RequestParam(value = "tuning", required = false) String tng, @RequestParam(value = "keys", required = false) Integer keys) {
+  public List<PianoAccordion> thoseDarnAccordions(@RequestParam(value = "tuning", required = false) String tng) {
     File file;
     List<String> inputList;
     List<PianoAccordion> theList;
@@ -46,21 +45,9 @@ public class Accordions {
       return null;
     }
     List<PianoAccordion> result = new ArrayList<>();
-    if (keys != null && tng != null) {
-      for (PianoAccordion p : theList) {
-        if (p.trebleKeys.equals(keys) && p.tuning.equals(tng)) {
-          result.add(p);
-        }
-      }
-    } else if (keys == null && tng != null) {
+    if (tng != null) {
       for (PianoAccordion p : theList) {
         if (p.tuning.equals(tng)) {
-          result.add(p);
-        }
-      }
-    } else if (keys != null & tng == null) {
-      for (PianoAccordion p : theList) {
-        if (p.trebleKeys.equals(keys)) {
           result.add(p);
         }
       }
