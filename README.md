@@ -12,5 +12,5 @@ a production web service would take a lot of time, so that is NOT an expectation
 If there is refactoring that you would like to postpone until later, you can document it using TODO comments in the code.
 
 The exercise uses Java 8 and expects that your system will have its JAVA_HOME environment variable set. It includes a Maven wrapper, 
-so you do not need to have Maven installed on your system to run project.
+so you do not need to have Maven installed on your system to run the project.
 
