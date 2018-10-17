@@ -1,16 +1,21 @@
 # CDL programming exercise
 
-This small Spring Boot application is the first attempt at a REST service that retrieves information about an accordion inventory. 
-An application that consumes this service can get a list of all the accordions, or filter it to see only accordions that match a specific criterion (tuning).
-In the future the application will be able to filter the list of accordions based on multiple criteria (such as the number of treble keys AND tuning).
+This small application is the first attempt at a command-line service that retrieves information about an accordion inventory. An application can get a list of all the accordions available, or filter the list to see only accordions that match a specific criterion (tuning).
 
-However, a brief examination of the code reveals that it is a crude prototype and needs considerable refactoring before you can start the work of making any functional changes.
+A brief examination of the code reveals that it is a crude prototype and needs considerable refactoring before you can start the work of making any functional changes.
 
-Your task is to begin refactoring the code so that you can start moving forward with development of a production web service. Keep in mind that to actually build 
-a production web service would take a lot of time, so that is NOT an expectation.
+Your first task is to clean up and restructure the code, so that it will be readable, testable, and scalable, following predictable conventions, so that you can start moving forward with development of a production application.
 
-If there is refactoring that you would like to postpone until later, you can document it using TODO comments in the code.
+After you have completed the refactoring, start thinking about what new functionality would be useful. If you have time to implement the functionality, great, but if you don't have time, you can create stub classes or methods with comments indicating how you would like them to work. Or use some other method to indicate how you would implement this functionality.
 
-The exercise uses Java 8 and expects that your system will have its JAVA_HOME environment variable set. It includes a Maven wrapper, 
-so you do not need to have Maven installed on your system to run project.
+Keep in mind that to actually build a production application would take a lot of time, so that is NOT an expectation.
 
+The exercise uses Java 8 and expects that your system will have its JAVA_HOME environment variable set. It includes a Maven wrapper, so you do not need to have Maven installed on your system to run the project.
+
+The project is run using the Maven exec plugin. To see a list of all the accordions, you can use the command:
+
+./mvnw exec:java
+
+Or, you can pass a single argument to filter the accordion list by tuning, for example:
+
+./mvnw exec:java -Dexec.args="musette"
