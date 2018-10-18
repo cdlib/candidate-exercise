@@ -10,9 +10,13 @@ After you have completed the refactoring, start thinking about what new function
 
 Keep in mind that to actually build a production application would take a lot of time, so that is NOT an expectation.
 
-The exercise uses Java 8 and expects that your system will have its JAVA_HOME environment variable set. It includes a Maven wrapper, so you do not need to have Maven installed on your system to run the project.
+The exercise uses Java 8 and expects that your system will have its JAVA_HOME environment variable set. 
 
-The project is run using the Maven exec plugin. To see a list of all the accordions, you can use the command:
+Before running the project, run compile:
+
+./mvnw compile
+
+To see a list of all the accordions, you can use the command:
 
 ./mvnw exec:java
 
