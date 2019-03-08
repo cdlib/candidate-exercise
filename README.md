@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This 2 1/2 hour exercise is designed to give us an understanding of your take on software engineering best practices, object oriented design and solving novel problems.  There are no right answers.  Every candidate will have a different take on the best way to do this exercise.  
+This 2 1/2 hour exercise is designed to give us an understanding of your take on software engineering best practices and solving novel problems.  There are no right answers.  Every candidate will have a different take on the best way to do this exercise.  
 
-In evaluating your answer, we will be looking at two things:
+In evaluating your answer, we will be looking at three things:
 * Your approach to writing readable, maintainable, testable and scalable code.
 * Your approach to object oriented design.
 * Upgrades you would make to the code to make it more useful to users.
@@ -13,7 +13,7 @@ While this code is written in Java, this is not a Java test.  In fact, if you wo
 
 If you have questions, please don't hesitate to contact me at judy.dobry@ucop.edu.
 
-** Please leave yourself time to zip up your files and send them to me before 2 1/2 hours are up. **  (If you experience difficulties, please just email me.)
+**Please leave yourself time to zip up your files and send them to me before 2 1/2 hours are up.**  (If you experience difficulties, please just email me.)
 
 ## Exercise
 This small application is the first attempt at a command-line service that retrieves information about an accordion inventory. This application can get a list of all the accordions available, or filter the list to see only accordions that match a specific criterion (tuning).
