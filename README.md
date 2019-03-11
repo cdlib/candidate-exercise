@@ -2,10 +2,10 @@
 
 ## Introduction
 
-This 2 1/2 hour exercise is designed to give us an understanding of your approach to using software engineering best practices and to solving novel problems.  There is no one right answers.  Every candidate will have a different take on the best way to do this exercise.  
+This 2 1/2 hour exercise is designed to give us an understanding of your approach to writing code.  There is no one right answers.  Every candidate will have a different take on the best way to do this exercise.  
 
 In evaluating your answer, we will be looking at three things:
-* Your approach to writing readable, maintainable, testable and scalable code.
+* Your approach to writing code that is readable, maintainable, testable and scalable.
 * Your approach to object oriented design.
 * Upgrades you would make to the code to make it more useful to users.
 
@@ -13,9 +13,9 @@ While this code is written in Java, this is not a Java test.  In fact, if you wo
 
 If you have questions, please don't hesitate to contact me at judy.dobry@ucop.edu.
 
-**Please leave yourself time to get your files to me before 2 1/2 hours are up.** You can do this one of two ways:
+**Please leave yourself time to get your files to me before 2 1/2 hours are up.** You can get the code to me in one of two ways:
 * Zip up the files and mail them to me at judy.dobry@ucop.edu.
-* Put them somewhere where I can easily download them.  Good places include Google Drive, box.net or **your own** Github repository.  Then send me an email letting me know where they are.
+* Put them somewhere where I can easily download them.  Good places include Google Drive, box.net or **your own** Github repository.  If you take this approach, don't forgetto send me an email letting me know where you've stored them.
 
 ## Exercise
 This small application is the first attempt at a command-line service that retrieves information about an accordion inventory. This application can get a list of all the accordions available, or filter the list to see only accordions that match a specific criterion (tuning).
