@@ -4,10 +4,9 @@
 
 This 2 1/2 hour exercise is designed to give us an understanding of your approach to writing code.  There is no one right answer.  Every candidate will have a different take on the best way to do this exercise.  
 
-In evaluating your answer, we will be looking at three things:
-* Your approach to writing code that is readable, maintainable, testable and scalable.
-* Your approach to object oriented design.
-* Upgrades you would make to the code to make it more useful to users.
+In evaluating your answer, we will be looking at two things:
+* How you made the code more readable, maintainable, testable and scalable.
+* How you added functionality to make the code more useful to users.
 
 While this code is written in Java, this is not a Java test.  In fact, if you would like to rewrite it in Python you are more than welcome to do so.  
 
