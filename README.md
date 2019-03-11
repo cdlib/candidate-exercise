@@ -15,7 +15,7 @@ If you have questions, please don't hesitate to contact me at judy.dobry@ucop.ed
 
 **Please leave yourself time to get your files to me before 2 1/2 hours are up.** You can get the code to me in one of two ways:
 * Zip up the files and mail them to me at judy.dobry@ucop.edu.
-* Put them somewhere where I can easily download them.  Good places include Google Drive, box.net or **your own** Github repository.  If you take this approach, don't forgetto send me an email letting me know where you've stored them.
+* Put them somewhere where I can easily download them.  Good places include Google Drive, box.net or **your own** Github repository.  If you take this approach, don't forget to send me an email letting me know where you've stored them.
 
 ## Exercise
 This small application is the first attempt at a command-line service that retrieves information about an accordion inventory. This application can get a list of all the accordions available, or filter the list to see only accordions that match a specific criterion (tuning).
