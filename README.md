@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This 2 1/2 hour exercise is designed to give us an understanding of your approach to writing code.  There is no one right answers.  Every candidate will have a different take on the best way to do this exercise.  
+This 2 1/2 hour exercise is designed to give us an understanding of your approach to writing code.  There is no one right answer.  Every candidate will have a different take on the best way to do this exercise.  
 
 In evaluating your answer, we will be looking at three things:
 * Your approach to writing code that is readable, maintainable, testable and scalable.
